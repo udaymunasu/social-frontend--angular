@@ -1,0 +1,13 @@
+<div class="app-container" *ngIf="">
+  <nav>
+    <ul>
+      <li><a routerLink="/login">Login</a></li>
+      <li><a routerLink="/register">Register</a></li>
+      <li><a routerLink="/dashboard">Dashboard</a></li>
+      <li><a routerLink="/profile">Profile</a></li>
+      <li><button class="logout-button" (click)="logout()">Logout</button></li>
+    </ul>
+  </nav>
+</div>
+<router-outlet></router-outlet>
+
